@@ -2,4 +2,6 @@
 Electron GUI - Node Js
 
 
-npm install electron node-steam steam-user steam-community cheerio
+npm install
+
+npm test
