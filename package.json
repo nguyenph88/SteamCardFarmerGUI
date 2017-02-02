@@ -13,11 +13,11 @@
 		"steam-client": "^1.1.1",
 		"steamcommunity": "^3.19.9"
 	},
-	"license": "GPLv3",
+	"license": "MIT",
 	"scripts": {
 		"start": "electron-packager \"./\" \"Steam Card Farmer\" --platform=win32 --arch=x64 --ignore=\"./builds*\" --out=\"./builds\" --overwrite --version=1.2.5",
 		"test": "electron .",
-		"preinstall": "(npm list electron-prebuilt -g || npm install electron-prebuilt -g) && (npm list electron-packager -g || npm install electron-packager -g)"
+		"preinstall": "(npm list electron -g || npm install electron -g) && (npm list electron-packager -g || npm install electron-packager -g)"
 	},
 	"main": "main.js"
 }
